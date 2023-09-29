@@ -1,0 +1,94 @@
+/* Header.css */
+
+.header {
+    background-color: white; /* Set your desired background color */
+    padding: 10px;
+    display: flex; /* Utilisez flexbox pour le positionnement */
+    flex-direction: column; /* Affichez les éléments en colonne */
+    align-items: center; /* Centrez horizontalement */
+    text-align: center; /* Centrez le texte */
+  }
+  
+ /* Header.css */
+
+.logo {
+    max-width: 90vw; /* Assurez-vous que le logo ne dépasse pas la largeur de la page */
+    height: auto; /* Maintenez le rapport hauteur-largeur */
+    margin-right: 120px; /* Ajoutez de la marge à droite du logo */
+    margin-top: 1px; /* Déplacez davantage le logo vers le haut */
+}
+  
+  
+  .menu-container {
+    margin-top: 20px; /* Ajoutez de l'espace entre le logo et le menu */
+  }
+  
+  .menu {
+    list-style: none; /* Supprimez les puces des éléments de la liste */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin-right: 30px; /* Ajoutez de l'espace entre les éléments du menu */
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color:#0092ca; /* Couleur d'arrière-plan de votre bouton */
+    border-radius: 5px; /* Coins arrondis */
+  }
+  
+  .menu li a:hover {
+    background-color:#0092ca; /* Changez la couleur au survol */
+  }
+  
+  /* ... Autres styles ... */
+  
+  .image-container {
+    margin-top: 20px; /* Ajoutez de l'espace entre le menu et l'image */
+  }
+  
+  .big-image {
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
+    height: auto; /* Maintenez le rapport hauteur-largeur */
+    display: block; /* Supprimez l'espace supplémentaire en dessous de l'image */
+    margin: 0 auto; /* Centrez l'image horizontalement dans le conteneur */
+  }
+  
+  /* Header.css */
+
+.menu-container {
+    margin-top: 1px; /* Déplacez davantage le conteneur du menu vers le haut */
+  }
+  
+/* Appliquer des styles aux images */
+.side-image {
+  width: 600px; /* Changer la largeur selon vos besoins */
+  height: auto; /* Garder la proportion d'origine */
+}
+
+.big-image {
+  width: 600px; /* Changer la largeur selon vos besoins */
+  height: auto; /* Garder la proportion d'origine */
+}
+
+/* Ajouter des styles à vos conteneurs d'images si nécessaire */
+.side-image-container {
+  margin: 30px; /* Ajouter une marge autour des images latérales */
+}
+
+/* src/styles.css */
+body {
+  background-color:  "#5DADE2 "; /* Your background color here */
+}
+
+/* styles.css */
+.background {
+  background-color: blue; /* Change this to your desired background color */
+}
+
