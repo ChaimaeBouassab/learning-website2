@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './GrammarSection.css'; // Import the CSS file
+import Appl from './Appl';
 
 const GrammarSection = () => {
   const [quizData, setQuizData] = useState([
@@ -76,6 +77,11 @@ const GrammarSection = () => {
       ))}
       <h3>Lesson 2: Should Have + Past Participle </h3>
       <img src="/modals.jpeg" alt="" />
+      <br></br>
+  <div id="appl" className="appl-container">
+  <Appl />
+  <br></br>
+  </div>
       
 
     </div>

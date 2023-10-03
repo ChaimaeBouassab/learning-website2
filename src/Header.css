@@ -1,13 +1,18 @@
 /* Header.css */
 
+/* Header.css */
+
 .header {
-    background-color: white; /* Set your desired background color */
-    padding: 10px;
-    display: flex; /* Utilisez flexbox pour le positionnement */
-    flex-direction: column; /* Affichez les éléments en colonne */
-    align-items: center; /* Centrez horizontalement */
-    text-align: center; /* Centrez le texte */
-  }
+  background-color: white; /* Set your desired background color */
+  padding: 10px;
+  display: flex; /* Utilisez flexbox pour le positionnement */
+  justify-content: center; /* Centrez horizontalement */
+  align-items: center; /* Centrez verticalement */
+  text-align: center; /* Centrez le texte */
+}
+
+/* ... Autres styles ... */
+
   
  /* Header.css */
 

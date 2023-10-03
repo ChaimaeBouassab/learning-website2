@@ -8,6 +8,8 @@ import Vocabulary from './Vocabulary' ;
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BookList from './BookList';
 import Appl from './Appl';
+import "./App.css";
+
 const appStyle = {
   backgroundColor: ' #c7b198 ' , // Replace with your desired background color or image
   /* You can also set other background properties here, like background-image */
@@ -173,11 +175,7 @@ const Header = () => {
     </a>
 
   </li>
-  <br></br>
-  <div id="appl" className="appl-container">
-  <Appl />
-  <br></br>
-  </div>
+  
  
   {showExercises && (
     <ul className="sub-menu">
