@@ -125,9 +125,7 @@ const Header = () => {
     <div style={appStyle}>
   
     <div className="header" >
-      <img src="/jjjjjjj.png" alt="Logo1" className="logo" style={{ maxWidth: `${logoWidth}px` }} />
 
-      <img src="/zzzzzzzz.png" alt="Logo" className="logo" style={{ maxWidth: `${logoWidth}px` }} />
       
 
       <div className="menu-container">
@@ -173,6 +171,7 @@ const Header = () => {
     <a href="/grammar" onClick={toggleLevelsMenu}>
       Exercises 
     </a>
+    
 
   </li>
   
@@ -261,7 +260,8 @@ Download PDF 3
     </ul>        
       </div>
       
-          
+      <img src="/jjjjjjj.png" alt="Logo1" className="logo" style={{ maxWidth: `${logoWidth}px` }} />
+ 
       </div>
       
 
