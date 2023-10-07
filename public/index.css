@@ -1,4 +1,8 @@
+.nav-compte img {
+    height: 50px;
+    width: 50px;
+
+}
 .nav-compte {
-    display: flex;
-    gap: 10px;
+    float: right;
 }

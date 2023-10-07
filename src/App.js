@@ -105,6 +105,7 @@ const Header = () => {
   // Function to toggle the display of levels menu
   const toggleLevelsMenu = (e) => {
     e.preventDefault(); // Prevent the default navigation behavior
+    console.log("commit" + showLevelsMenu );
     setShowLevelsMenu(!showLevelsMenu);
   };
 
@@ -131,19 +132,19 @@ const Header = () => {
       <div className="menu-container">
         <nav>
           <ul className="menu">
-            <li>
-            
-              {showLevelsMenu && (
-                <ul className="sub-menu">
-                  <li><a href="/level/A1-A2">A1-A2</a></li>
-                  <br></br>
-                  <li><a href="/level/B1-B2">B1-B2</a></li>
-                  <br></br>
-                  <li><a href="/level/C1-C1">C1-C2</a></li>
-                </ul>
-              )}
               
-            </li>
+                {showLevelsMenu && (
+              <li>
+                  <ul className="sub-menu">
+                    <li><a href="/level/A1-A2">A1-A2</a></li>
+                    <br></br>
+                    <li><a href="/level/B1-B2">B1-B2</a></li>
+                    <br></br>
+                    <li><a href="/level/C1-C1">C1-C2</a></li>
+                  </ul>
+              </li>
+                )}
+                
             <br></br>
             <li><a onClick={toggleArticleMenu}>Articles</a></li>
             {showArticles && (
