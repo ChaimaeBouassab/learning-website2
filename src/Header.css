@@ -1,6 +1,3 @@
-/* Header.css */
-
-/* Header.css */
 
 .header {
   background-color: white; /* Set your desired background color */
@@ -10,11 +7,6 @@
   align-items: center; /* Centrez verticalement */
   text-align: center; /* Centrez le texte */
 }
-
-/* ... Autres styles ... */
-
-  
- /* Header.css */
 
 .logo {
     max-width: 90vw; /* Assurez-vous que le logo ne dépasse pas la largeur de la page */
@@ -26,6 +18,10 @@
   
   .menu-container {
     margin-top: 20px; /* Ajoutez de l'espace entre le logo et le menu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
   }
   
   .menu {
@@ -52,7 +48,6 @@
     background-color:#0092ca; /* Changez la couleur au survol */
   }
   
-  /* ... Autres styles ... */
   
   .image-container {
     margin-top: 20px; /* Ajoutez de l'espace entre le menu et l'image */
@@ -96,4 +91,5 @@ body {
 .background {
   background-color: blue; /* Change this to your desired background color */
 }
+
 
