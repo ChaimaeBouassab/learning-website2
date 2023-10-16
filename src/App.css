@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,12 +42,6 @@
     transform: rotate(360deg);
   }
 }
-/* Header.css */
-
-/* Style for the main menu items */
-/* Header.css */
-
-/* Style for the main menu items */
 .menu {
   list-style: none;
   padding: 0;
@@ -50,60 +50,54 @@
 
 .menu li {
   display: inline-block;
-  margin-right: 20px; /* Adjust the spacing between menu items */
+  margin-right: 20px; 
 }
 
-/* styles.css */
 body {
-  background-color: #5DADE2 ; /* Replace with your desired background color or image */
-  /* You can also set other background properties here, like background-image */
+  background-color: #5DADE2 ; 
+  
 }
 
 .menu a {
   text-decoration: none;
-  color: #333; /* Adjust the text color */
+  color: #333; 
   font-weight: bold;
 }
 
-/* Style for the sub-menu */
 .sub-menu {
   list-style: none;
   padding: 0;
   margin: 0;
-  position: absolute;
-  background-color: #fff; /* Background color of the sub-menu */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
-  display: none; /* Initially hide the sub-menu */
-  z-index: 1; /* Ensure the sub-menu appears above other content */
-  margin-top: 10px; /* Add margin to separate it from the parent menu item */
+  background-color: #fff; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+  z-index: 1; 
+  margin-top: 10px; 
 }
 
 .sub-menu li {
-  padding: 10px; /* Adjust the padding for sub-menu items */
+  padding: 10px; 
 }
 
 .sub-menu a {
-  color: #333; /* Adjust the text color for sub-menu items */
+  color: #333; 
   text-decoration: none;
   display: block;
 }
 
-/* Show the sub-menu when the parent li is hovered */
 .menu li:hover .sub-menu {
   display: block;
 }
 
 
-/* In your CSS file (e.g., App.css) */
 .header {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align items to the left */
+  align-items: flex-start; 
 }
 
 
 
 .image {
-  width: 100px; /* Set the width of your image */
-  height: auto; /* Automatically adjust the height */
+  width: 100px; 
+  height: auto; 
 }

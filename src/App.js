@@ -11,7 +11,7 @@ import Appl from './Appl';
 import "./App.css";
 
 const appStyle = {
-  backgroundColor: ' #c7b198 ' , // Replace with your desired background color or image
+  backgroundColor: ' white ' , // Replace with your desired background color or image
   /* You can also set other background properties here, like background-image */
 };
 const articles = [
