@@ -13,7 +13,7 @@ const books = [
   },
   {
     title: ' Critical Responses ',
-    author: 'Jordan Peterson',
+    author: 'Jordane Peterson',
     coverImg: '/716M0udarJL._AC_UF1000,1000_QL80_.jpg',
   },
   {
