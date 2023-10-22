@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import './Header.css'; // Import the CSS file
+import './Header.css'; 
 import ReactDOM from 'react-dom';
-import YourComponent from './YourComponent'; // Adjust the path to match your file structure
-import GrammarSection from './GrammarSection'; // Import the GrammarSection component
+import YourComponent from './YourComponent'; 
+import GrammarSection from './GrammarSection'; 
 import FamousBooksSection from './FamousBooksSection';
 import Vocabulary from './Vocabulary' ;
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,8 +11,7 @@ import Appl from './Appl';
 import "./App.css";
 
 const appStyle = {
-  backgroundColor: ' white ' , // Replace with your desired background color or image
-  /* You can also set other background properties here, like background-image */
+  backgroundColor: ' white ' , 
 };
 const articles = [
   {
@@ -42,7 +41,6 @@ const exercises = [
     link: 'https://www.myenglishpages.com/english/grammar-exercise-phrasal-verbs.php',
   },
   
-  // Add more exercises as needed
 ];
 
 
@@ -50,8 +48,8 @@ const Header = () => {
   const [logoWidth, setLogoWidth] = useState(0);
   const [showPdfButton, setShowPdfButton] = useState(false);
 
-  const [showLevelsMenu, setShowLevelsMenu] = useState(false); // Add state for levels menu
-  const [showArticles, setShowArticles] = useState(false); // Add state for levels menu
+  const [showLevelsMenu, setShowLevelsMenu] = useState(false); 
+  const [showArticles, setShowArticles] = useState(false); 
 
 
   function handleArticleLinkClick(event, link) {
@@ -59,7 +57,7 @@ const Header = () => {
     window.location.href = link;
   }
   function Apply() {
-  const backgroundColor = 'blue'; // Change this to your desired background color
+  const backgroundColor = 'blue'; 
   }
   
   useEffect(() => {
@@ -90,7 +88,7 @@ const Header = () => {
     }
   };
    const handleBooksLinkClick = () => {
-    setShowPdfButton(true); // Show the PDF download button
+    setShowPdfButton(true); 
   };
   const handleVocaLinkClick = () => {
     const vocabularySection = document.getElementById('Vocabulary');
@@ -102,7 +100,6 @@ const Header = () => {
     setShowPdfButton(true); // Show the PDF download button
   };
 
-  // Function to toggle the display of levels menu
   const toggleLevelsMenu = (e) => {
     e.preventDefault(); // Prevent the default navigation behavior
     console.log("commit" + showLevelsMenu );
