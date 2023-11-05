@@ -7,13 +7,13 @@ const b=[
 ]
 const books = [
   {
-    title: 'NEW-12 Rules for Life: An Antidote to Chaosse',
-    author: 'Jordan Petsrhaeersonn',
+    title: '12 Rules for Life: An Antidote to Chaos',
+    author: 'Jordan Peterson',
     coverImg: '/41zGXwxH-ZL.jpg',
   },
   {
     title: ' Critical Responses ',
-    author: 'Jordane Peterson',
+    author: 'Jordan Peterson',
     coverImg: '/716M0udarJL._AC_UF1000,1000_QL80_.jpg',
   },
   {
